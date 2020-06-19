@@ -1,0 +1,133 @@
+body{ 
+    margin: 0%;
+    background-color: rgb(234, 234, 225);
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 75, 160,1);
+}
+header img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+main{
+    margin-top: 20%px;
+
+}
+
+footer{
+    height:40px;
+    width: 100%;
+    background-color: rgba(0, 75, 160,1);
+    color:aliceblue;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+footer p{
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(25, 118, 210,0.8);
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    float: left;
+}
+nav li:last-child{
+    border: none;
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    font-size: 18px;
+    background-color: rgba(10,33,40,1);
+}
+
+
+.form{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15px;
+    background-color: rgba(255,255,255,0.2);
+    border:3px rgba(0,0,0,1);
+    border-radius: 10px;
+    padding: 10px;
+}
+.form textarea{
+    width: 75%;
+    height: 20%;
+    margin: 5px 12%;
+    resize: none;
+}
+.form input{
+    width: 75%;
+    height: 30px;
+    margin: 3px 12%;
+    padding: 3px;
+}
+.form select{
+    width: 75%;
+    height: 30px;
+    margin: 3px 12.5%;
+    border-radius: 1px;
+}
+.form h3{
+    margin: 0px 12%;
+    color: black;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+.producto{
+    width: 250px;
+    height: 300px;
+    float: left;
+    /*border: 3px solid rgba(0,0,0,1);*/
+    margin: 20px 20px;
+    padding: 5px;
+}
+.producto img{
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+}
+.producto img:hover{
+    width: 110%;
+    height: 110%;
+    margin-left: -10px;
+}
+.titulo{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    
+}
+
+.form-popup{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    z-index: +1;
+}
